@@ -5,11 +5,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/abot-us" element={ <h1>Hello</h1> } >
+        <Route path="/about-us" element={ <h1>Hello</h1> } >
         </Route>
         <Route path="/movie/:id" element={ <Detail /> } >
         </Route>
-        <Route path="/" element={ <Home /> } >
+        <Route path="/react-for-beginners" element={ <Home /> } >
         </Route>
       </Routes>
     </Router>
